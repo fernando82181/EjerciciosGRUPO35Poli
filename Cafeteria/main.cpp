@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-
-int main() {
+int main()
+{
 
     string mensajeSolicitudOpcion = "INGRESE LA OPCION PARA EL PRODUCTO\n";
     string productos = "\n 1. CAFÉ $2000"
@@ -192,8 +192,7 @@ int main() {
     cout << "Total de jugo vendido: " << contadorGlobalJugo << endl;
     cout << "Total de sandwich vendido: " << contadorGlobalSandwich << endl;
     cout << "Total de Empanada vendida: " << contadorGlobalEmpanada << endl;
-    cout << "Total vendido en la jornada\t" << totalVendidoJornada << endl;= " <<subtotal << endl;
-
+    cout << "Total vendido en la jornada\t" << totalVendidoJornada << endl;
 
     return 0;
 }
